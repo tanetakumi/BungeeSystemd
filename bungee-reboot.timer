@@ -1,0 +1,9 @@
+[Unit]
+Description=bungee reboot timer
+
+[Timer]
+OnCalendar=*-*-* 6:00
+Unit=bungee-reboot.service
+
+[Install]
+WantedBy=timers.target
